@@ -8,7 +8,6 @@
 ![MLPClassifier](https://img.shields.io/badge/MLPClassifier-Scikit--Learn-orange?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Yellowbrick](https://img.shields.io/badge/Yellowbrick-FDC813?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==&logoColor=white)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge)
 
 ## 📌 Descrição
 
@@ -37,14 +36,14 @@ O objetivo é **avaliar o desempenho de redes neurais** em diferentes contextos,
 
  **classification_report_ credit**
 
-               precision    recall  f1-score   support
+                   precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00       436
-           1       1.00      1.00      1.00        64
+              0        1.00      1.00      1.00       436
+               1       1.00      1.00      1.00        64
 
-    accuracy                           1.00       500
-   macro avg       1.00      1.00      1.00       500
-weighted avg       1.00      1.00      1.00       500
+        accuracy                           1.00       500
+       macro avg       1.00      1.00      1.00       500
+    weighted avg       1.00      1.00      1.00       500
 
 
 
@@ -56,14 +55,14 @@ weighted avg       1.00      1.00      1.00       500
 
  **classification_report_ census**
  
-                precision    recall  f1-score   support
+                    precision    recall  f1-score   support
 
-       <=50K       0.87      0.89      0.88      3693
-        >50K       0.64      0.59      0.61      1192
+           <=50K       0.87      0.89      0.88      3693
+            >50K       0.64      0.59      0.61      1192
 
-    accuracy                           0.82      4885
-   macro avg       0.75      0.74      0.75      4885
-weighted avg       0.81      0.82      0.82      4885
+        accuracy                           0.82      4885
+       macro avg       0.75      0.74      0.75      4885
+    weighted avg       0.81      0.82      0.82      4885
 
 
 ---
